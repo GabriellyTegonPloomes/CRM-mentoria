@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+.containerMenu {
+  display: flex;
+  gap: 16px;
+  width: 70%;
+}
+
+.linkMenu {
+  color: #a48fc1;
+  font-size: 24px;
+  font-family: "Source Sans 3", serif;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.active {
+  color: #712bd4;
+}

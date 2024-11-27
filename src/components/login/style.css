@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+.containerLogin {
+  width: 100%;
+  height: 100vh;
+  background-color: #712bd4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.containerLogin h1 {
+  color: #f8f5fd;
+
+  font-size: 40px;
+  font-family: "Source Sans 3", serif;
+}
+
+.contentLogin {
+  background-color: #cdb5f0;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 350px;
+  padding: 40px;
+  gap: 24px;
+  border-radius: 20px;
+}
+
+label {
+  font-size: 20px;
+  font-family: "Source Sans 3", serif;
+  color: #f8f5fd;
+}
+
+input {
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #f8f5fd;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.login {
+  background-color: #5260ff;
+  border: none;
+  padding: 16px 0px;
+  color: #f8f5fd;
+  font-size: 20px;
+  font-family: "Source Sans 3", serif;
+  cursor: pointer;
+  border-radius: 10px;
+}
