@@ -2,8 +2,14 @@
 
 .containerMenu {
   display: flex;
-  gap: 16px;
   width: 70%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contentMenu {
+  display: flex;
+  gap: 16px;
 }
 
 .linkMenu {
@@ -12,6 +18,18 @@
   font-family: "Source Sans 3", serif;
   text-decoration: none;
   font-weight: 600;
+}
+
+.linkMenuLogout {
+  color: #712bd4;
+  font-size: 20px;
+  font-family: "Source Sans 3", serif;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.linkMenuLogout:hover {
+  color: #a48fc1;
 }
 
 .active {

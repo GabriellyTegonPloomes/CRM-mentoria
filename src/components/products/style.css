@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
 
-.containerClientes {
+.containerProducts {
   background-color: #ededed;
   width: 100%;
   height: 100%;
@@ -11,14 +11,18 @@
   padding: 32px 0px;
 }
 
-.contentClientes {
+.contentProducts {
   background-color: white;
   width: 70%;
+  min-height: 1000px;
   border-radius: 20px;
   padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.titulos {
+.titlesTablesProducts {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   border-bottom: 1px solid black;
@@ -27,26 +31,16 @@
   font-weight: bold;
 }
 
-.clienteItem {
+.product {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
+  gap: 16px;
   font-family: "Source Sans 3", serif;
 }
 
-.empresa {
-  background-color: #7ed07e;
-  border-radius: 5px;
-  color: white;
-  padding: 5px;
-  text-align: center;
-}
-
-.pessoa {
-  background-color: #52b1ff;
-  border-radius: 5px;
-  color: white;
-  padding: 5px;
-  text-align: center;
+.product p {
+  overflow: hidden;
+  word-wrap: break-word;
 }
 
 .pagination {

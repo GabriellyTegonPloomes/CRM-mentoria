@@ -34,7 +34,7 @@ label {
   color: #f8f5fd;
 }
 
-input {
+.contentLogin input {
   padding: 20px;
   border-radius: 10px;
   border: none;
@@ -43,12 +43,12 @@ input {
   font-size: 16px;
 }
 
-input:focus {
+.contentLogin input:focus {
   outline: none;
 }
 
 .login {
-  background-color: #5260ff;
+  background-color: #712bd4;
   border: none;
   padding: 16px 0px;
   color: #f8f5fd;

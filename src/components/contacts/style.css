@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+.containerContacts {
+  background-color: #ededed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  padding: 32px 0px;
+}
+
+.contentContacts {
+  background-color: white;
+  width: 70%;
+  min-height: 1000px;
+  border-radius: 20px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.titlesTablesContacts {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  border-bottom: 1px solid black;
+  font-family: "Source Sans 3", serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  font-family: "Source Sans 3", serif;
+}
+
+.company {
+  background-color: #7ed07e;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+
+.person {
+  background-color: #52b1ff;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+
+.pagination {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+  justify-content: center;
+}
+
+.pagination button {
+  padding: 0px 16px;
+  background-color: #712bd4;
+  border: none;
+  font-family: "Source Sans 3", serif;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #f8f5fd;
+}
+
+.pagination button:disabled {
+  background-color: #a48fc1;
+  cursor: initial;
+}
